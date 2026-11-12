@@ -1,0 +1,165 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+nav {
+    background-color: aqua;
+    padding: 16px 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.581);
+}
+
+nav p a,
+nav ul li a {
+    color: black;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav p a:hover,
+nav ul li a:hover {
+    background-color: gainsboro;
+    color: blue;
+}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+    margin: -17px 30px 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li :hover{
+    background-color: gainsboro;
+    color: blue;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero p {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    font-size: 40px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.hero p span {
+    background-color: rgba(0, 0, 0, 0.577);
+    padding: 10px;
+}
+
+.projects {
+    padding: 60px 15px  ;
+}
+
+.projects .houses {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.projects .houses .house img {
+    width: 100%;
+}
+
+.projects .houses .house {
+    position: relative;
+}
+
+.projects .houses .house h4 {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 7px 15px;
+}
+
+.about {
+  padding: 60px 0px 40px 0px;
+}
+
+.about .faces {
+    padding-top: 30px;
+    display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 20px;
+}
+
+.about .faces .face img {
+    width: 100%;
+}
+
+.projects .faces .face .text .mid{
+    padding-top:20px ;
+    padding-bottom: 20px;
+    color: rgba(0, 0, 0, 0.548);
+}
+
+
+.projects .faces .face .text p {
+    padding-bottom: 20px;
+}
+
+
+.projects .faces .face .text button {
+    /* padding: 8px 155px; */
+    width: 100%;
+    border: none;
+}
+
+
+.projects .faces .face .text button:hover {
+    background-color: gainsboro;
+    color: black;
+} 
+
+
+ .contact {
+    padding: 30px 15px 20px 13px;
+ }
+
+ .contact h1 {
+    padding-bottom: 20px;
+ }
+
+ .contact .mid {
+    padding-bottom: 30px;
+    font-weight: 900;
+ }
+
+ 
+.contact form input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+ .contact form button  {
+    background-color: black;
+    color: white;
+    padding:9px 15px;
+    border: none;
+}
+
+ .contact form button:hover {
+    background-color: gainsboro;
+    color: black;
+   
+}
+
+footer {
+    background-color: aquamarine;
+    padding: 50px 100px;
+    text-align: center;
+}
